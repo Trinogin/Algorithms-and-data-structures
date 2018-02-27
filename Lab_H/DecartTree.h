@@ -1,0 +1,7 @@
+#ifndef DECART_TREE_H_INCLUDED
+#define DECART_TREE_H_INCLUDED
+
+#pragma once
+
+
+#endif // DECART_TREE_H_INCLUDED
