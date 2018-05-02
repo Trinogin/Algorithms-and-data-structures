@@ -146,7 +146,8 @@ void PrintTreap(Node* t)
 
 void RemoveTreap(Node* t)
 {
-	while (GetSize(t))
-		t = Remove(t, 0);
+	if (t != nullptr)
+		while (GetSize(t))
+			t = Remove(t, 0);
 	t = nullptr;
 }
